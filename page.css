@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #24252a;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+section .h1{
+text-justify: center;
+align-items: ;
+}
+
+
+nav .links{
+    display: flex;
+    align-items: center;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav > a {
+    padding: 12px 30px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+nav > a :hover{
+    background-color: #51a7fd;
+}
+
+#hero{
+    background-color: #f8f8f8;
+    justify-content: center;
+    /* align-items: flex-start; */
+    color: #A6A7A9;
+    font-size: 70px;
+    font-style: italic;
+    
+}
+
+#hero p{
+    color: blue;
+    position: relative;
+    font-size: 15px;
+    position: absolute;
+}
+
+#About{
+    background-color: tomato;
+}
+
+#Services{
+    background-color: black;
+}
+
+#Testimonial{
+    background-color: teal;
+}
+
+#Contact{
+    background-color: #1e2221;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
